@@ -96,8 +96,78 @@
             </figure>
             <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta ...">
              </section>
-       
+       <!--Tabela de Pontuação-->
+       <section> 
+        <!--Cabeçalho da tabela-->
+        <h2>Tabela de Pontuação</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Pontuação</th>
+                    <th>Avaliação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0-2</td>
+                    <td>Não desista. Cada tentativa é uma oportunidade de você aprender. </td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td>Você ainda precisa melhorar. Que tal estudar mais programação?</td>
+                </tr>
+                <tr>
+                    <td>5-7</td>
+                    <td>Bom! Seu conhecimento está satisfatório. </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Perfeito! Você está muito bem informado sobre programação. </td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Boa sorte na próxima!</td>
+            </tr>
+        </tfoot>
+        </table>
+       </section>
+       <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para ver as respostas! </summary>
+            <ol>
+                <li>HTML</li>
+                <li>Domínio</li>
+                <li>Ab234!kHgn*FFW</li>
+                <li>1991</li>
+                <li>Javascript, Java</li>
+                <li>Arquivo deve ter extensão .html</li>
+                <li>type</li>
+                <li>Java</li>
+            </ol>
+        </details>
+       </section>
+       <!--Formulário de Feedback-->
+       <section>
+        <h2>Nos dê o seu feedback! </h2>
+        <form>
+            <fieldset>
+                <legend>Informações de contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br> 
+            <label for="comentarios">Comentários</label><br> 
+            <textarea name="comentarios" id="comentarios" rows="4" placeholder="Digite seus Comentários aqui: "></textarea><br>
+            <button onclick="alert('Feedback enviado!')">Envie o feedback </button>
+        </form>
+     </fieldset>
+       </section>
        </main>
-       <footer></footer>
+       <footer>
+        <p>&copy Quiz de Programação todos os direitos reservados</p>
+        <p>Para conhecer outros quizes, clique aqui. <a href="https://www.google.com/" target="_blank">Clique Aqui!</a></p>
+       </footer>
 </body>
 </html>
